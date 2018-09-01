@@ -1,0 +1,65 @@
+<mvc:View
+	height="100%"
+	xmlns:l="sap.ui.layout"
+	controllerName="sap.m.sample.TileContainer.Page"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+	<Page
+		showHeader="false"
+		enableScrolling="true" >
+		<HBox>
+			<VBox>
+				 <Table id="questionTable"
+				    inset="false"
+				    items="{options>/}">
+				    <headerToolbar>
+				      <Toolbar>
+				      	<l:HorizontalLayout  content="{categories>/}">
+				      		<Button type="Emphasized" text="{categories>text}" press="loadCategory" class="sapUiTinyMargin"></Button>
+				      	</l:HorizontalLayout>
+				      	<ToolbarSpacer/>
+				        <Title text="Time Left: {lastTime>/lastTime}" level="H2"/>
+				        <Label text="Marks: {question>/positive_marks}"/>
+				        <Label text="Neg Marks: {question>/negative_marks}"/>
+				      </Toolbar>
+				    </headerToolbar>
+				    <columns>
+				      <Column width="1em"><Text text="{question>/id}. {question>/question_text}" /></Column>
+				    </columns>
+				     <items>
+					      <ColumnListItem>
+					        <cells>
+					          <RadioButton groupName="answer" select="answered" selected="{options>selected}" text="{options>option_id}. {options>text}" />
+					      	</cells>
+					  	</ColumnListItem>
+					 </items>
+				 </Table>
+				 <HBox>
+				 	<Button id="sn" text="Save &amp; Next" press="saveNext" class="sapUiTinyMargin" type="Accept" enabled = "{parts:[{path:'questions>status'}],formatter:'._formatter_set_button_enable'}" ></Button>
+				 	<Button id="msn" text="Mark &amp; Next" press="markNext" type="Emphasized" class="sapUiTinyMargin" enabled = "{parts:[{path:'questions>status'}],formatter:'._formatter_set_button_enable'}"></Button>
+				 	<Button text="Clear Selection" press="clear" class="sapUiTinyMargin" type="Reject"></Button>
+				 	<Button id="submit" enabled="false" text="Submit" class="sapUiTinyMargin" press="submit"></Button>
+				 </HBox>
+		 	</VBox>
+		 <Panel>
+		 	<l:BlockLayout id="BlockLayout">
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell width="5"  content="{questions>/}">
+						<Button groupName="qLists" text="{questions>id}" type = "{parts:[{path:'questions>status'}],formatter:'._formatter_set_button_type'}" press="loadQuestion" class="sapUiTinyMargin"/>
+					</l:BlockLayoutCell>
+					<l:BlockLayoutCell width="5">
+					<VBox>
+						<Label text="Legends"></Label>
+						<Button text="Visited" type="Reject" width="300px"></Button>
+						<Button text="Answered" type="Accept" width="300px"></Button>
+						<Button text="Not Visited" width="300px"></Button>
+						<Button text="Answered and Marked for Review" width="300px" type="Emphasized"></Button>
+					</VBox>
+					</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+		 </Panel>
+		</HBox>
+	</Page>
+</mvc:View>

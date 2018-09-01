@@ -1,0 +1,454 @@
+{
+				"name": "Computer Programming Test",
+				"total_time" : 3600,
+				"is_live": true,
+				"categories" : [
+					{
+						"id":"CPP",
+						"text": "C++"
+					}, {
+						"id": "JAVA",
+						"text": "Java"
+					}, {
+						"id": "SQL",
+						"text": "SQL"
+					}
+				],
+				"questions" : [
+					{
+						"id" : 1,
+						"category" : "CPP",
+						"question_text" : "What is Pointers",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "A Point in Desktop",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "A Device Like Mouse",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "A variable which holds address of Other variable",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 2,
+						"category" : "CPP",
+						"question_text" : "What is the Size of Integer in C++?",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "1 Byte",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "2 Byte",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "3 Byte",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "4 Byte",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 3,
+						"category" : "CPP",
+						"question_text" : "What is Class",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "Our room in school",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "Dividing people in Group",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "A data structure which hold method and variables",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 4,
+						"category" : "CPP",
+						"question_text" : "What is virtual function?",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "A function is does not exist in Code",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "A function which is visible using VR",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "A special Type of function in C++",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 5,
+						"category" : "CPP",
+						"question_text" : "What is C++",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "It is a English alphabet",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "It is a language",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "Who the hell care",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 6,
+						"category" : "JAVA",
+						"question_text" : "What is Java?",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "Coffee",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "A application software",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "A Programming Language",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 7,
+						"category" : "JAVA",
+						"question_text" : "What is Polymerphism",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "A methemetical Equation",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "A method which have many signature type",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "I don't care",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 8,
+						"category" : "JAVA",
+						"question_text" : "What is Byte Code",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "Having a byte of Code",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "Output of Java compiler",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "A data structure",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 9,
+						"category" : "JAVA",
+						"question_text" : "Who invented Java?",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "Jems Goslin",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "I did not",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "Don't know",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 10,
+						"category" : "JAVA",
+						"question_text" : "What is Applet",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "A special type of Java program",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "Jaani na",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "Who the hell care",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 11,
+						"category" : "SQL",
+						"question_text" : "What is SQL",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "Characters",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "A Database application",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "A Programming Language",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 12,
+						"category" : "SQL",
+						"question_text" : "What is command to find max",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "MAX",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "MIN",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "AVG",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 13,
+						"category" : "SQL",
+						"question_text" : "What is the command to select student whose id is 1",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "select id =1 ",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "select * from student where id=1",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "where id=1",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the Above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 14,
+						"category" : "SQL",
+						"question_text" : "Full form of SQL",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "Structured Query Language",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "I did not know",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "Don't know",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					},
+					{
+						"id" : 15,
+						"category" : "SQL",
+						"question_text" : "Have you used SQL",
+						"options": [
+							{
+								"option_id" : 1,
+								"text" : "Yes",
+								"selected" : false
+							},{
+								"option_id" : 2,
+								"text" : "No",
+								"selected" : false
+							},{
+								"option_id" : 3,
+								"text" : "Who the hell care",
+								"selected" : false
+							},{
+								"option_id" : 4,
+								"text" : "None of the above",
+								"selected" : false
+							}
+						],
+						"answer_given_by_candidate" : null,
+						"positive_marks" : 1,
+						"negative_marks" : -0.25,
+						"status" : "NOT_VISITED",
+						"actual_answer": 1
+					}
+				]
+			}

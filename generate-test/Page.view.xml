@@ -1,0 +1,18 @@
+<mvc:View
+	height="100%"
+	xmlns:l="sap.ui.layout"
+	controllerName="sap.m.sample.TileContainer.Page"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+	<Page
+		showHeader="false"
+		enableScrolling="true" >
+				<Select items="{sets>/}" id="mysets">
+					<core:Item key="{sets>id}" text="{sets>name}" />
+				</Select>
+				<Input id="candidate-name" placeholder="Name" width="300px"/>
+		<Button text="Generate Unique ID" press="generate"></Button>
+		<Label text="Share this ID to Candidate:"/> <Input id="uid" width="300px"/>
+	</Page>
+</mvc:View>

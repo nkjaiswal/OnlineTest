@@ -1,0 +1,28 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Popover
+		showHeader="false"
+		contentWidth="600px"
+		contentHeight="500px"
+		placement="Bottom" >
+		<NavContainer
+			id="navCon">
+			<Page
+				id="master"
+				title="Parent Audits">
+				<List
+					id="list"
+					items="{parents>/}" >
+					<StandardListItem
+						title="{parents>audit_name}"
+						description="Result:{parents>audit_result}"
+						info="Create At:{parents>created_at}"
+						type="Active"
+						iconDensityAware="false"
+						iconInset="false" />
+				</List>
+			</Page>
+		</NavContainer>
+	</Popover>
+</core:FragmentDefinition>

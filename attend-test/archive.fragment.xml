@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<Dialog title="Archive Audit">
+		<f:SimpleForm id="audit-archive" editable="true">
+			<f:content>
+				<Label text="Audit Name"/>
+				<Input value="" id="archive-audit" enabled="false"/>
+				<Label text="Reason"/>
+				<Input value="" id="archive-reason"/>
+			</f:content>
+		</f:SimpleForm>
+		<buttons>
+			<Button text="Archive" type="Reject" press="onPressArchiveAudit"></Button>
+			<Button text="Close" press="onPressCancel"></Button>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

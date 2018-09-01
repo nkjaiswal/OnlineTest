@@ -1,0 +1,14 @@
+<mvc:View
+	height="100%"
+	xmlns:l="sap.ui.layout"
+	controllerName="sap.m.sample.TileContainer.Page"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+	<Page
+		showHeader="false"
+		enableScrolling="true" >
+		<TextArea value="" cols="200" rows="50" id="jsonData"></TextArea>
+		<Button text="Create Question" press="createQuestion"></Button>
+	</Page>
+</mvc:View>
