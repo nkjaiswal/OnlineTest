@@ -8,3 +8,4 @@
 6. NODEJS is require to run this (node index.js)
 7. open http://localhost:3000/ to access the page
 
+![image](https://user-images.githubusercontent.com/22337156/150490429-ada647d3-58ce-4be2-bb22-f984a894375d.png)
